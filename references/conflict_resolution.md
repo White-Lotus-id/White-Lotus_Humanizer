@@ -58,7 +58,7 @@ Rules for resolving conflicts between voice authenticity, grammar, and format.
 The following ALWAYS override voice profile rules:
 - Em dashes: NEVER allowed regardless of voice profile
 - Semicolons: NEVER allowed
-- Non-BU chapter titles: NEVER allowed
+- Non-institutional chapter titles: NEVER allowed
 - Non-APA citations: NEVER allowed
 - Soul level below Maximum: NEVER allowed
 

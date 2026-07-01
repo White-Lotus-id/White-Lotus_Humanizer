@@ -18,32 +18,32 @@ Soul Level: Maximum (locked)
 GENERATING: INTRODUCTION
 
 REFERENCES (5):
-1. Santos, J. R., & Cruz, M. A. (2022). Power quality in Philippine distribution
-   networks. Journal of Electrical Engineering Philippines, 14(2), 45-58.
+1. [Author, A. A., & Author, B. B. (Year)]. Power quality in Philippine distribution
+   networks. [a national electrical engineering journal], 14(2), 45-58.
    https://doi.org/10.xxxx/xxxx
    APA: OK
    Verification: [NEEDS SEARCH — will verify before generation]
    Claim Match: Pending verification
 
-2. ALECO. (2023). Annual service reliability report. Albay Electric Cooperative.
+2. [the Cooperative]. (Year). Annual service reliability report. [the local electric cooperative].
    APA: [CITATION FORMAT CORRECTED — no URL/DOI added; organizational author
    format OK]
    Verification: [UNVERIFIABLE — internal report, no public abstract]
    Claim Match: OK — used as institutional data source only
 
-3. Dela Cruz, P. B. (2021). Voltage monitoring systems for rural electrification.
-   Philippine Institute of Electrical Engineers Journal, 8(1), 12-24.
+3. [Author, A. A. (Year)]. Voltage monitoring systems for rural electrification.
+   [a national professional engineering body journal], 8(1), 12-24.
    APA: OK
    Verification: [NEEDS SEARCH]
    Claim Match: Pending
 
-4. Reyes, L. C., & Torres, A. M. (2020). Household appliance damage from
-   undervoltage events in Bicol Region. Energy Research Philippines, 5(3), 88-102.
+4. [Author, A. A., & Author, B. B. (Year)]. Household appliance damage from
+   undervoltage events in [the region]. [a national energy research journal], 5(3), 88-102.
    APA: OK
    Verification: [NEEDS SEARCH]
    Claim Match: Pending
 
-5. Garcia, R. F. (2023). Smart home power monitoring solutions. IEEE Access,
+5. [Author, A. A. (Year)]. Smart home power monitoring solutions. [a peer-reviewed engineering journal],
    11, 24531-24545. https://doi.org/10.1109/ACCESS.2023.xxxxx
    APA: OK
    Verification: [VERIFIED VIA SEARCH]
@@ -52,15 +52,15 @@ REFERENCES (5):
 GLOSSARY (4 terms locked):
 | Term | Definition |
 |---|---|
-| Brownout | A prolonged reduction in voltage supply below the acceptable threshold, as experienced in ALECO service territory, causing appliance damage and service interruption |
-| Undervoltage | Voltage level that drops below 0.90 per unit of nominal supply voltage, as defined by ERC standards |
-| ALECO | Albay Electric Cooperative, the distribution utility serving Polangui and surrounding municipalities |
+| Brownout | A prolonged reduction in voltage supply below the acceptable threshold, as experienced in [the cooperative] service territory, causing appliance damage and service interruption |
+| Undervoltage | Voltage level that drops below 0.90 per unit of nominal supply voltage, as defined by [the regulator] standards |
+| [the cooperative] | [the local electric cooperative], the distribution utility serving [the municipality] and surrounding municipalities |
 | PZEM-004T | A power monitoring module used in this study to measure voltage, current, and power factor in real time |
 
 FLAGGED FOR REVIEW:
 - References 1, 3, 4 pending web search verification. Proceeding with
   [UNVERIFIABLE] flag if abstracts are not found.
-- ALECO internal report: cite as gray literature. Will flag if claim match
+- [the cooperative] internal report: cite as gray literature. Will flag if claim match
   cannot be verified.
 
 Reply: [CONFIRMED: Generate Introduction]
@@ -76,21 +76,21 @@ Or send corrections.
 
 Electricity is something that most households in the Philippines consider a
 basic part of daily life, which means its absence or sudden instability is
-not just an inconvenience but a real economic problem (Santos & Cruz, 2022).
-In Albay, this problem is well-known. Families who live inside the ALECO
+not just an inconvenience but a real economic problem ([Author & Author, Year]).
+In [the province], this problem is well-known. Families who live inside the [the cooperative]
 service territory have become so used to voltage fluctuations that they have
 a word for it already: brownout. Because of that, the term does not just
 mean a power interruption, it also means the steady hum of appliances
 suddenly going quiet, the refrigerator warming up, and the water pump
-failing to start in the morning (Reyes & Torres, 2020).
+failing to start in the morning ([Author & Author, Year]).
 
 The researchers observe that the cause of these events is not one single
 failure but a combination of aging infrastructure, rising household demand,
-and the seasonal battering of Bicol's typhoon corridor (ALECO, 2023). At the
-moment, the distribution network serving Polangui was not originally
+and the seasonal battering of [the region]'s typhoon corridor ([the Cooperative, Year]). At the
+moment, the distribution network serving [the municipality] was not originally
 designed to carry the load that modern households put on it, which means
 that even without a storm, voltage levels can drop below the threshold that
-appliances need in order to function safely (Dela Cruz, 2021). This is
+appliances need in order to function safely ([Author, Year]). This is
 because the cooperative has not been able to expand its infrastructure at
 the same pace that residential connections have grown, and that gap is not
 abstract (intentional) — a family with a chest freezer full of a week's
@@ -120,7 +120,7 @@ The example above shows:
    claim). Only one marker in the entire output.
 2. VOICE-A voice: "Because of that," "which means," "in order to," "The
    researchers observe that."
-3. Embodied specificity: the refrigerator, water pump, chest freezer, and ALECO
+3. Embodied specificity: the refrigerator, water pump, chest freezer, and [the cooperative]
    as place name.
 4. Problem genealogy in progress: everyday problem (para 1), infrastructure
    cause (para 2).
@@ -142,7 +142,7 @@ Please write your own bridge sentence before I continue. A single word or
 Example of an acceptable bridge sentence:
 "Existing solutions for voltage monitoring have been developed in other
 countries but they often require expensive equipment that most households
-in Polangui cannot afford."
+in [the municipality] cannot afford."
 
 Your bridge sentence:
 ```

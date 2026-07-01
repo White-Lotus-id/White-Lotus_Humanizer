@@ -49,7 +49,7 @@ No paragraph may be written without at least 2 connectors and 1 "which means."
 ```
 PARAGRAPH OPENER OPTIONS (rotate, never repeat same opener in consecutive paragraphs):
 - Plain declarative: "[Topic] is [statement]."
-- Localization: "In [Philippines/Bicol/Polangui], [topic] [situation]."
+- Localization: "In [Philippines/[the region]/[the municipality]], [topic] [situation]."
 - Causal: "Since [background condition], [consequence]."
 - Observational: "The researchers find/observe that [specific problem]."
 
@@ -80,8 +80,8 @@ PARAGRAPH CLOSER OPTIONS:
 SENTENCE 1 (broad global claim):
 [Topic] is [global significance statement] (Citation).
 
-SENTENCE 2 (localize to PH or Bicol):
-In [Philippines/Bicol/region], [localized context] (Citation).
+SENTENCE 2 (localize to PH or [the region]):
+In [Philippines/[the region]/region], [localized context] (Citation).
 
 SENTENCE 3 (problem observation):
 The researchers find/observe that [specific problem or current practice].
@@ -100,7 +100,7 @@ Because of that, [what is needed / what is missing].
 
 "Carabao mango is one of the most economically important fruit crops in the
 Philippines, and the country is among the top producers in Southeast Asia
-(Sembrano, 2022). In Bicol and other farming regions, mango quality is still
+([Author, Year]). In [the region] and other farming regions, mango quality is still
 checked the old way — by looking at the skin, pressing the flesh, and guessing
 based on experience. The researchers observe that this creates a real problem
 since sweetness cannot be determined visually, which means farmers and traders
@@ -144,17 +144,17 @@ humanizing any Introduction section, especially for agricultural sensing thesis.
 
 Carabao mango is one of the most economically important fruit crops in the
 Philippines, and the country is considered among the top producers in Southeast
-Asia [citation needed]. In Bicol and in most farming areas, sweetness is still
+Asia [citation needed]. In [the region] and in most farming areas, sweetness is still
 checked the old way, by pressing the skin, looking at the color, and estimating
 ripeness based on how many days have passed since harvest, which means there is
 really no consistent method for determining the actual Brix value without cutting
 the fruit open. Also, this approach depends a lot on the experience of the handler,
 and that is a problem especially when dealing with large volumes at a trading post
-or packhouse in Camarines Sur. Quality will never be uniform that way.
+or packhouse in [the province]. Quality will never be uniform that way.
 
 Since the standard way to measure Brix is through a refractometer, the fruit has
 to be cut first, which means every sample used for testing is already destroyed and
-can no longer be sold (Fan et al., 2022). That is a real loss for small farmers who
+can no longer be sold ([Author et al., Year]). That is a real loss for small farmers who
 cannot pull a lot of units from a batch just for checking. Because of that, the
 researchers looked into non-destructive testing methods that can assess sweetness
 without damaging the mango. Basically, what they found was that most available
@@ -164,7 +164,7 @@ absorption bands where sugar concentration is actually reflected.
 In this case, short-wave near-infrared spectroscopy, or SW-NIR, is considered one
 of the most promising approaches because it can penetrate the fruit surface and
 interact with organic compounds inside, which means it is actually possible to get
-Brix readings without cutting anything open (Zhang, 2025). The researchers found
+Brix readings without cutting anything open ([Author, Year]). The researchers found
 that the AS7265x spectral sensor, which covers wavelengths relevant to
 sugar-related absorption, has not been evaluated on Carabao mango under real field
 conditions in the Philippines. That gap is what this study targets.
@@ -278,7 +278,7 @@ proponents, and any long-term monitoring such as post-deployment and mass
 production of the device falls beyond the boundaries of the study. This aims to
 solve the problem of consumer-level portable device that can detect the physical
 degradation of the water containers after reusing, and assess the health risk from
-it. The study will be conducted in the province of Albay, municipality of Polangui,
+it. The study will be conducted in the province of [the province], municipality of [the municipality],
 in a local Philippine setting. Moreover, the limitations of the study will only fall
 to the assessment of plastic water containers and does not extend to any type of the
 water containers such as silicone, aluminum, and glass. And the detection
@@ -317,7 +317,7 @@ the Tier 5 system should generate probabilistically in equivalent positions.
 |---|---|
 | [Named specific group] | [Named specific benefit] |
 
-**Soul note**: Name the barangay health worker, the ALECO technician, the
+**Soul note**: Name the barangay health worker, the [the cooperative] technician, the
 household owner. Specificity is soul here.
 
 **Openers per beneficiary row**:

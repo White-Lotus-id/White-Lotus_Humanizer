@@ -58,13 +58,13 @@ For full script execution:
 
 ## Co-loading Requirements (v6.5.0)
 
-### voice_c.md + naeem_style_essence.md
+### voice_c.md + voice_c_style_essence.md
 
 These two files are **co-loaded** whenever VOICE-C is declared. Neither file
 should be loaded alone:
 - `voice_c.md` is the full forensic profile (identity, register, ESL markers,
   paragraph structure, citation conventions, tone by section, what NOT to do).
-- `naeem_style_essence.md` is the operational quick-reference (Three Rules of
+- `voice_c_style_essence.md` is the operational quick-reference (Three Rules of
   Mimicry, ESL marker density targets, connector inventory, per-hypothesis
   template, fake abstract example, cheat sheet).
 
@@ -88,8 +88,8 @@ undergraduate Discussion structure.
 | references/voice_base.md | ~6 KB | Lazy — BASE tasks |
 | references/voice_a.md | ~7 KB | Lazy — VOICE-A tasks |
 | references/voice_b.md | ~7 KB | Lazy — VOICE-B tasks |
-| references/voice_c.md | ~14 KB | Lazy — VOICE-C tasks (co-loaded with naeem_style_essence.md) |
-| references/naeem_style_essence.md | ~9 KB | Lazy — VOICE-C tasks (co-loaded with voice_c.md) |
+| references/voice_c.md | ~14 KB | Lazy — VOICE-C tasks (co-loaded with voice_c_style_essence.md) |
+| references/voice_c_style_essence.md | ~9 KB | Lazy — VOICE-C tasks (co-loaded with voice_c.md) |
 | references/humanization_techniques.md | ~28 KB | Lazy — all generation |
 | references/tier5_mistake_layer.md | ~6 KB | Lazy — on demand |
 | references/bu_format_specs.md | ~3 KB | Lazy — every Filipino undergraduate session |
@@ -107,6 +107,6 @@ undergraduate Discussion structure.
 **Estimated context usage (Filipino undergraduate typical session):** 20-30 KB
   (SKILL.md + voice profile + 2-3 lazy references).
 **Estimated context usage (VOICE-C typical session):** 40-55 KB
-  (SKILL.md + voice_c.md + naeem_style_essence.md + section template +
+  (SKILL.md + voice_c.md + voice_c_style_essence.md + section template +
   humanization_techniques + apa_citation_rules).
 **Savings vs monolithic SKILL.md:** ~60-70% token reduction for typical tasks.

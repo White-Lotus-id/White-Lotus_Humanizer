@@ -27,7 +27,7 @@ three consecutive paragraphs with the same connector.
 | `Basically,` | Plain summary or explanation | "Basically, the Researcher sees that the way they absorb..." |
 | `So,` | Wrap up or conclude | "So, the Researcher observed that these techniques are just too slow..." |
 | `Moreover,` | Formal addition (Ch1 only) | "Moreover, this is a manual process..." |
-| `Additionally,` | RRL/RRS addition | "Additionally, Li et al. (2023) used deep learning..." |
+| `Additionally,` | RRL/RRS addition | "Additionally, [Author et al. (Year)] used deep learning..." |
 | `While [clause],` | Concessive contrast | "While this is quick, the Researcher found that it is destructive." |
 
 **Rotation rule**: Within a single paragraph, at least 2 different connectors
@@ -191,7 +191,7 @@ invisible."
 ## 2.3 Embodied Specificity Mandate (CRITICAL)
 
 Every time a technical or abstract claim is made about cost, harm, scale, or
-benefit, ask: *What does this look like for one specific household in Polangui?*
+benefit, ask: *What does this look like for one specific household in [the municipality]?*
 
 Minimum frequency: At least one embodied specificity per 250 words in
 Introduction and Results.
@@ -200,7 +200,7 @@ Must involve one of:
 - A specific object (refrigerator, electric water pump)
 - A specific person/role (barangay health worker, farmer, household owner)
 - A specific price or time duration (2,000 pesos, one month's salary, 30 minutes)
-- A specific place name (ALECO, Bicol, Polangui, Masbate)
+- A specific place name ([the cooperative], [the region], [the municipality], [the province])
 
 ---
 
@@ -251,8 +251,8 @@ Same structure may not appear more than twice consecutively.
 |---|---|---|
 | Restatement | "The voltage dropped below safe levels. It went below what appliances could handle." | 1x per 300 words |
 | Clunky but honest phrasing | "The researchers looked for data and what they found was that there was none." | 1x per 400 words |
-| Sentence that could have been shorter | "What the study is trying to address is the absence of any voltage monitoring data from inside ALECO's service territory." | 1x per 400 words |
-| Slightly awkward word order | "The problem is one that many households in Polangui are already familiar with." | 1x per 500 words |
+| Sentence that could have been shorter | "What the study is trying to address is the absence of any voltage monitoring data from inside [the cooperative]'s service territory." | 1x per 400 words |
+| Slightly awkward word order | "The problem is one that many households in [the municipality] are already familiar with." | 1x per 500 words |
 
 ---
 
@@ -270,7 +270,7 @@ notice until it is too late"
 Frequency: 1x per 2-3 paragraphs.
 
 ### Pattern 3 — Slightly resigned or observational tone
-Example: "The researchers looked for published technical data from inside ALECO's
+Example: "The researchers looked for published technical data from inside [the cooperative]'s
 service territory and found nothing."
 Frequency: 1x per section, concentrated in Introduction and Results.
 
@@ -373,7 +373,7 @@ verbs only.
 **Scope and Delimitation** — Sound like a student who knows exactly what they
 built and what they did not. Honest, not defensive.
 
-**Significance** — Name the barangay health worker, the ALECO technician, the
+**Significance** — Name the barangay health worker, the [the cooperative] technician, the
 household owner. Specificity is soul here.
 
 **RRL** — Personality lives in the gap statement and synthesis. "While Author X
@@ -445,7 +445,7 @@ If the student submits an externally flagged sentence ("this got detected",
 "reduce this", "fix this sentence"), apply the same three passes in sequence
 as a repair operation, then reassemble the paragraph for rhythm check.
 
-### Example (DrThava, 2024 — 69% to 0%)
+### Example ([external tutorial, 2024] — 69% to 0%)
 
 **Original sentence (69% AI detected):**
 
@@ -530,14 +530,14 @@ Run internally after each draft chunk. Do not output results.
 - [ ] Voice profile grammar errors injected at correct rate?
 - [ ] Tier 5 mistakes scattered, non-patterned?
 - [ ] Triple-Fire: every sentence cleared Pass 1 (voice), Pass 2 (vocab), Pass 3 (structure)? (2.14)
-- [ ] Naeem resistance patterns applied? (2.15)
+- [ ] the author resistance patterns applied? (2.15)
 - [ ] Lexical repetition preserved — key thesis term NOT paraphrased? (2.15)
 
 ---
 
-## 2.15 Naeem Turnitin Resistance Patterns (CONFIRMED 0% SOURCE)
+## 2.15 Author Turnitin Resistance Patterns (CONFIRMED 0% SOURCE)
 
-Extracted from Dr. Naeem Hayat PhD thesis, independently verified at 0%
+Extracted from the author PhD thesis, independently verified at 0%
 on Turnitin. These are structural properties of the writing, not surface
 style. Apply them as a layer on top of the existing humanization system.
 
@@ -560,7 +560,7 @@ paragraphs. Zero synonym substitution for that term.
 Use non-standard passive forms that no LLM would generate naturally.
 
 Instead of clean passive: "Data were analyzed using SPSS."
-Use Naeem passive: "Data examined for missing data, normality, and
+Use the author's passive: "Data examined for missing data, normality, and
 descriptive analysis by the use of SPSS."
 
 Pattern: drop the auxiliary verb, use "by the use of" instead of "by,"
@@ -572,8 +572,8 @@ Frequency: 1-2 times per Research Design or Results section.
 
 Insert a citation before the sentence finishes its grammatical arc.
 
-Instead of: "The adoption of CAPs is reported as low (Kassam et al., 2018)."
-Use: "The adoption of CAPs reported low as the impact (Kassam et al., 2018)
+Instead of: "The adoption of CAPs is reported as low ([Author et al., Year])."
+Use: "The adoption of CAPs reported low as the impact ([Author et al., Year])
 of the adoption is not much discussed at farmers' level."
 
 The citation interrupts the sentence before the main clause completes.
@@ -624,9 +624,8 @@ is the same. Do not artificially rotate for variety.
 
 ## 2.16 Pakistani ESL Forensic Voice Patterns (VOICE-C only) — NEW v6.5.0
 
-These six pattern families are extracted from Dr Naeem Hayat's PhD thesis
-("Conservative Agriculture Practices Adoption and Impact on the Sustainable
-Farm Performance for Rice Farmers in Pakistan"). The thesis was confirmed
+These six pattern families are extracted from the author's PhD thesis
+("[a PhD thesis on technology adoption in agriculture]"). The thesis was confirmed
 at 0% Turnitin AI-detection. These patterns activate ONLY when VOICE-C is
 declared. They are forbidden in Filipino undergraduate (BASE / VOICE-A /
 VOICE-B) output.
@@ -708,10 +707,10 @@ that" / "showed that". These are calques from Urdu academic register.
 | "exploited" | "used / utilized" | 1 per 1000 words (rare) |
 
 Examples:
-- "Pino et al. (2017) informed that among the farmers, the personal
+- "[Author et al. (Year)] informed that among the farmers, the personal
   innovativeness affects the (β = 0.17, p = 0.01) intention to adopt the CAPs."
-- "Aubert et al. (2012) testified that…"
-- "As postulated by Rogers (2003) that personal tendency to adopt innovation
+- "[Author et al. (Year)] testified that…"
+- "As postulated by [Author (Year)] that personal tendency to adopt innovation
   varied among the individual…"
 
 ### 2.16.5 "as well" / "as well as" Overuse
@@ -777,8 +776,8 @@ the soul is in the genuine engagement with the field reality.
 | Problem Statement | "no study attempt to evaluate…" — assertive gap claim; "up to author knowledge" hedge |
 | Objectives | "This research aims to explore…" — purpose statement template |
 | Literature Review | Cite-heavy, 4-move paragraphs, attribution verbs heavy, "based on the work of" intro phrase |
-| Methodology | Passive-dominant, zero-auxiliary passives, methods textbook citations (Saunders, Creswell, Hair, Sekaran) |
-| Results | Statistics inline, "f²=0.000 insignificantly influence" template, "(Cohen, 1988)" effect size citation |
+| Methodology | Passive-dominant, zero-auxiliary passives, methods textbook citations ([methods textbook authors]) |
+| Results | Statistics inline, "f²=0.000 insignificantly influence" template, "([Author, Year])" effect size citation |
 | Discussion | 5-move per-hypothesis template, near-verbatim repetition for every hypothesis |
 | Contribution | Assertive — "the current work is a forerunner", "no study ever attempted to combine" |
 | Managerial Implications | "the same money be utilize to promote…" recommendation register, "extension staff and farmer-to-farmer observation opportunities may aid" |

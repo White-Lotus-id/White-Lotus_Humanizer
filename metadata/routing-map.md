@@ -13,7 +13,7 @@ generating any output.
 | BASE | `cat references/voice_base.md` |
 | VOICE-A | `cat references/voice_a.md` |
 | VOICE-B | `cat references/voice_b.md` |
-| VOICE-C (Pakistani ESL PhD) | `cat references/voice_c.md` AND `cat references/naeem_style_essence.md` (co-loaded) |
+| VOICE-C (Pakistani ESL PhD) | `cat references/voice_c.md` AND `cat references/voice_c_style_essence.md` (co-loaded) |
 | Not declared | Ask before generating |
 
 **Voice Family Lock**: Once a voice family (Filipino undergraduate or Pakistani ESL PhD)
@@ -45,9 +45,9 @@ the Filipino family, voice rotation rules still apply between chunks.
 | Summary of Findings | `cat references/section_templates_ch4_ch5.md` |
 | Conclusions | `cat references/section_templates_ch4_ch5.md` |
 | Recommendations | `cat references/section_templates_ch4_ch5.md` |
-| Discussion (VOICE-C per-hypothesis) | `cat references/section_templates_ch4_ch5.md` + `cat references/voice_c.md` + `cat references/naeem_style_essence.md` |
-| Contribution / Theoretical Implications (VOICE-C) | `cat references/voice_c.md` + `cat references/naeem_style_essence.md` |
-| Managerial / Practical Implications (VOICE-C) | `cat references/voice_c.md` + `cat references/naeem_style_essence.md` |
+| Discussion (VOICE-C per-hypothesis) | `cat references/section_templates_ch4_ch5.md` + `cat references/voice_c.md` + `cat references/voice_c_style_essence.md` |
+| Contribution / Theoretical Implications (VOICE-C) | `cat references/voice_c.md` + `cat references/voice_c_style_essence.md` |
+| Managerial / Practical Implications (VOICE-C) | `cat references/voice_c.md` + `cat references/voice_c_style_essence.md` |
 | Chapter Summary / Chapter Conclusion (VOICE-C) | `cat references/voice_c.md` (chapter sandwich pattern) |
 
 ---
@@ -85,7 +85,7 @@ the Filipino family, voice rotation rules still apply between chunks.
 
 ### Humanize existing text (Pakistani ESL PhD — VOICE-C)
 1. `references/voice_c.md`
-2. `references/naeem_style_essence.md`
+2. `references/voice_c_style_essence.md`
 3. `references/humanization_techniques.md` (especially Section 2.16)
 4. `references/apa_citation_rules.md`
 5. `references/authenticity_checklist.md` (internal — including VOICE-C checks)
@@ -100,14 +100,14 @@ the Filipino family, voice rotation rules still apply between chunks.
 
 ### Generate a new section (Pakistani ESL PhD — VOICE-C)
 1. `references/voice_c.md`
-2. `references/naeem_style_essence.md`
+2. `references/voice_c_style_essence.md`
 3. Section template for that chapter
 4. `references/humanization_techniques.md` (especially Section 2.16)
 5. `references/apa_citation_rules.md`
 6. `references/authenticity_checklist.md` (internal — including VOICE-C checks)
 
 ### Intake + pre-generation summary only
-1. `references/bu_format_specs.md` (Filipino) OR `references/naeem_style_essence.md` (VOICE-C)
+1. `references/bu_format_specs.md` (Filipino) OR `references/voice_c_style_essence.md` (VOICE-C)
 2. `references/apa_citation_rules.md`
 
 ---
@@ -115,8 +115,8 @@ the Filipino family, voice rotation rules still apply between chunks.
 ## What NOT to Load
 
 - Do not pre-load all voice profiles. Load only the declared one.
-- Do not load `voice_c.md` without also loading `naeem_style_essence.md` (they are co-loaded).
-- Do not load `naeem_style_essence.md` without `voice_c.md` (the essence file is meaningless without the full profile).
+- Do not load `voice_c.md` without also loading `voice_c_style_essence.md` (they are co-loaded).
+- Do not load `voice_c_style_essence.md` without `voice_c.md` (the essence file is meaningless without the full profile).
 - Do not load Chapter 4/5 templates for a Chapter 1 request.
 - Do not load Tier 5 reference unless Tier 5 audit is explicitly requested.
 - Do not load conflict_resolution.md unless an edge case arises.

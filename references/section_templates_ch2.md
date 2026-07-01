@@ -30,7 +30,7 @@ Maximum 3-4 sentences per source. Never write a 5-sentence RRL paragraph.
 ```
 STEP 1 — Citation opener (sentence 1):
 [Author et al. (Year)] + past tense verb + what they did.
-Example: "Göhler et al. (2023) detailed the creation of in-ovo sexing methods
+Example: "[Author et al. (Year)] detailed the creation of in-ovo sexing methods
 to fix the ethical and financial issues caused by culling male chicks."
 
 STEP 2 — Zoom in (sentence 2):
@@ -80,7 +80,7 @@ Do not generate without confirmed Theme Map.
 ```
 STEP 1 — Study intro (sentence 1):
 [Author et al. (Year)] + past tense verb + method or approach.
-Example: "Liu et al. (2020) used high-resolution infrared thermography
+Example: "[Author et al. (Year)] used high-resolution infrared thermography
 to monitor the thermal decay of seeds in order to measure their vigor."
 
 STEP 2 — Finding (sentence 2):

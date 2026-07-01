@@ -10,20 +10,20 @@ Real-world usage examples for the humanize skill.
 [SECTION INTAKE]
 
 1. Thesis Title/Topic: Development of a Brownout Guard System for Residential Power
-   Monitoring in ALECO Service Territory
+   Monitoring in [the cooperative] Service Territory
 2. Thesis Category: Development
 3. Section/Part: Introduction
 4. Voice Target: VOICE-A
 5. References:
-   - Santos, J. R., & Cruz, M. A. (2022). Power quality in Philippine distribution
-     networks. Journal of Electrical Engineering Philippines, 14(2), 45-58.
+   - [Author, A. A., & Author, B. B. (Year)]. Power quality in Philippine distribution
+     networks. [a national electrical engineering journal], 14(2), 45-58.
      https://doi.org/10.xxxx/xxxx
-   - ALECO. (2023). Annual service reliability report. Albay Electric Cooperative.
-   - Dela Cruz, P. B. (2021). Voltage monitoring systems for rural electrification.
-     Philippine Institute of Electrical Engineers Journal, 8(1), 12-24.
-   - Reyes, L. C., & Torres, A. M. (2020). Household appliance damage from
-     undervoltage events in Bicol Region. Energy Research Philippines, 5(3), 88-102.
-   - Garcia, R. F. (2023). Smart home power monitoring solutions. IEEE Access,
+   - [the Cooperative]. (Year). Annual service reliability report. [the local electric cooperative].
+   - [Author, A. A. (Year)]. Voltage monitoring systems for rural electrification.
+     [a national professional engineering body journal], 8(1), 12-24.
+   - [Author, A. A., & Author, B. B. (Year)]. Household appliance damage from
+     undervoltage events in [the region]. [a national energy research journal], 5(3), 88-102.
+   - [Author, A. A. (Year)]. Smart home power monitoring solutions. [a peer-reviewed engineering journal],
      11, 24531-24545. https://doi.org/10.1109/ACCESS.2023.xxxxx
 
 [CONFIRMED: Generate Introduction]
@@ -63,16 +63,16 @@ Section: Research Design
 3. Section/Part: RRL — Theme: Infrared Thermography in Agriculture
 4. Voice Target: VOICE-A
 5. References:
-   - Mancini, M., & Lopez, F. (2022). Infrared imaging for crop quality assessment.
+   - [Author, A. A., & Author, B. B. (Year)]. Infrared imaging for crop quality assessment.
      Biosystems Engineering, 218, 45-56.
-   - Kim, S., Park, J., & Lee, H. (2021). Thermal imaging for seed germination
+   - [Author, A. A., Author, B. B., & Author, C. C. (Year)]. Thermal imaging for seed germination
      prediction. Journal of Agricultural Engineering, 58(3), 112-124.
-   - Nguyen, T. (2023). Non-destructive methods for rice quality evaluation.
+   - [Author, A. A. (Year)]. Non-destructive methods for rice quality evaluation.
      Computers and Electronics in Agriculture, 205, 107-119.
 
 6. Theme Map:
-   Theme 1: Infrared Thermography — Mancini & Lopez (2022), Nguyen (2023)
-   Theme 2: Seed Viability Assessment Methods — Kim et al. (2021)
+   Theme 1: Infrared Thermography — [Author & Author (Year)], [Author (Year)]
+   Theme 2: Seed Viability Assessment Methods — [Author et al. (Year)]
 
 [THESIS ANCHOR]
 Title: Automated Rice Seed Viability Detection Using Infrared Thermography and CNN
@@ -98,9 +98,9 @@ Thesis Category: Development
 
 [BULLET EXPORT FROM THESIS-WRITER]
 - Phase 1: Requirement Gathering
-  - Interview stakeholders (household owners, ALECO technicians)
+  - Interview stakeholders (household owners, [the cooperative] technicians)
   - Identify voltage thresholds and monitoring frequency requirements
-  - Review existing brownout incident reports from ALECO
+  - Review existing brownout incident reports from [the cooperative]
 - Phase 2: System Development
   - Hardware assembly: ESP32 + PZEM-004T + relay module
   - Firmware: FreeRTOS task scheduling for sensor polling
@@ -108,14 +108,14 @@ Thesis Category: Development
 - Phase 3: Testing and Evaluation
   - Unit testing of individual sensors
   - Integration testing of full system
-  - User acceptance testing with 5 household owners in Polangui
+  - User acceptance testing with 5 household owners in [the municipality]
 
 [THESIS ANCHOR]
-Title: Brownout Guard: A Residential Power Monitoring System for ALECO Service Territory
+Title: Brownout Guard: A Residential Power Monitoring System for [the local utility] service territory
 Category: Development
 General Objective: To develop a residential power monitoring and protection system
-Scope: Limited to monitoring voltage and current at the household level in ALECO
-service territory, Polangui, Albay
+Scope: Limited to monitoring voltage and current at the household level in [the cooperative]
+service territory, [the municipality], [the province]
 Key methodology: RAD methodology, ESP32-based hardware, FreeRTOS firmware,
 React Native mobile app
 ```

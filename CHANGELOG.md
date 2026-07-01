@@ -11,13 +11,13 @@ Format: [VERSION] — YYYY-MM-DD
 ### Added
 
 - **New voice profile: VOICE-C (Pakistani ESL PhD voice)**. Forensic
-  reconstruction of Dr Naeem Hayat's PhD thesis style on Conservative
+  reconstruction of the author's PhD thesis style on Conservative
   Agriculture Practices (CAPs) adoption. Confirmed 0% Turnitin
   AI-detection. Covers UTAUT / TAM / DOI / TPB / TRA theoretical frames,
   PLS-SEM + ANN methodology, agricultural-economics / social-science
   tradition. Lives in `references/voice_c.md`.
 
-- **New forensic quick-reference: `references/naeem_style_essence.md`**.
+- **New forensic quick-reference: `references/voice_c_style_essence.md`**.
   Operational in-generation glance-up file loaded alongside `voice_c.md`
   when VOICE-C is active. Contains the Three Rules of Mimicry, ESL
   diagnostic marker density targets, connector inventory, attribution
@@ -60,13 +60,12 @@ Format: [VERSION] — YYYY-MM-DD
   construct.
 
 - references/humanization_techniques.md: New Section 2.16 Pakistani ESL
-  Forensic Voice Patterns. Six pattern families extracted from the Dr
-  Naeem Hayat 0% Turnitin thesis: of-chain nominalisation stacking,
+  Forensic Voice Patterns. Six pattern families extracted from the the author 0% Turnitin thesis: of-chain nominalisation stacking,
   zero-auxiliary passive construction, infinitive-with-s marker,
   "informed that" / "testified that" attribution verbs, "as well" /
   "as well as" overuse, and British/Commonwealth spelling enforcement.
 
-- references/tier5_mistake_layer.md: Naeem-Derived Errors category
+- references/tier5_mistake_layer.md: Author-Derived Errors category
   expanded with five additional markers sourced from the Pakistani ESL
   PhD thesis: dropped definite article before nominalised subject,
   dropped "be" in modal construction, subject-verb agreement slip on
@@ -81,8 +80,8 @@ Format: [VERSION] — YYYY-MM-DD
 
 - metadata/manifest.json: `voice_profiles` array extended with VOICE-C
   entry pointing to `references/voice_c.md`. `references.lazy_loaded`
-  extended with `references/voice_c.md` and `references/naeem_style_essence.md`.
-  `tags` extended with `pakistani-esl-phd`, `naeem-forensic-voice`,
+  extended with `references/voice_c.md` and `references/voice_c_style_essence.md`.
+  `tags` extended with `pakistani-esl-phd`, `author-forensic-voice`,
   `graduate-research`, `pl-sem`, `utaut`. `absorbed_skills` extended
   with `voice-profile-c`.
 
@@ -101,12 +100,12 @@ Format: [VERSION] — YYYY-MM-DD
   to VOICE-C, all chunks use VOICE-C.
 
 - SKILL.md: RESOURCE ROUTING section extended with explicit load
-  instructions for `voice_c.md` and `naeem_style_essence.md`. VOICE-C
+  instructions for `voice_c.md` and `voice_c_style_essence.md`. VOICE-C
   loads both files together; neither is loaded alone.
 
 - SKILL.md: GENERATION PROTOCOL Phase 1 extended — when VOICE-C is
   declared, the pre-generation summary also loads
-  `references/naeem_style_essence.md`.
+  `references/voice_c_style_essence.md`.
 
 - SKILL.md: GENERATION PROTOCOL Phase 2 checklist extended — VOICE-C
   sessions require theoretical framework + construct list present.
@@ -118,10 +117,10 @@ Format: [VERSION] — YYYY-MM-DD
 
 - metadata/routing-map.md: Decision table extended with two new
   VOICE-C-specific routes (load `voice_c.md` and load
-  `naeem_style_essence.md`).
+  `voice_c_style_essence.md`).
 
 - metadata/dependency-notes.md: New entry for the
-  `voice_c.md` + `naeem_style_essence.md` co-loading requirement.
+  `voice_c.md` + `voice_c_style_essence.md` co-loading requirement.
 
 ### Preserved from v6.4.0
 
@@ -160,14 +159,14 @@ Format: [VERSION] — YYYY-MM-DD
 
 ### Added
 
-- references/humanization_techniques.md: Section 2.15 Naeem Turnitin
-  Resistance Patterns. Six techniques extracted from Dr. Naeem Hayat PhD
+- references/humanization_techniques.md: Section 2.15 Author Turnitin
+  Resistance Patterns. Six techniques extracted from the author PhD
   thesis (0% Turnitin confirmed): lexical repetition tolerance, clunky
   passive construction, mid-sentence citation before resolution, triple-
   chained "and" clause, tense asymmetry, exact noun-phrase repetition at
   paragraph scale.
 
-- references/tier5_mistake_layer.md: Naeem-Derived Errors category. Five
+- references/tier5_mistake_layer.md: Author-Derived Errors category. Five
   new mistake types from the 0% source: non-standard passive construction,
   mid-sentence citation before resolution, triple-chained "and" clause,
   hedged trailing ending, non-parallel enumeration.
@@ -178,7 +177,7 @@ Format: [VERSION] — YYYY-MM-DD
 - references/voice_base.md: Lexical Repetition Tolerance rule under
   Student Writing Style Patterns.
 
-- references/authenticity_checklist.md: Naeem Resistance Checks block
+- references/authenticity_checklist.md: Author Resistance Checks block
   with four checklist items.
 
 ### Changed
@@ -248,7 +247,7 @@ Tier 5 non-pattern rules govern probabilistic generation.
   All three must clear before a sentence is output.
 - Extended AI-signal word list integrated into Pass 2 (extends section 2.1).
 - Secondary use case documented: targeted repair for externally flagged sentences.
-- Full worked example from DrThava (2024) showing 69% to 0% reduction using the
+- Full worked example from [external tutorial (2024)] showing 69% to 0% reduction using the
   same three-pass logic applied to an OTT/UTAUT-2 sentence.
 - Added checklist item to Phase 4 Anti-AI Authenticity Checklist for Triple-Fire.
 

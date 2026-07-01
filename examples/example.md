@@ -31,20 +31,20 @@ gate. Copy any template verbatim to start a session.
 [SECTION INTAKE]
 
 1. Thesis Title/Topic: Development of a Brownout Guard System for Residential Power
-   Monitoring in ALECO Service Territory
+   Monitoring in [the cooperative] Service Territory
 2. Thesis Category: Development
 3. Section/Part: Introduction
 4. Voice Target: VOICE-A
 5. References:
-   - Santos, J. R., & Cruz, M. A. (2022). Power quality in Philippine distribution
-     networks. Journal of Electrical Engineering Philippines, 14(2), 45-58.
+   - [Author, A. A., & Author, B. B. (Year)]. Power quality in Philippine distribution
+     networks. [a national electrical engineering journal], 14(2), 45-58.
      https://doi.org/10.xxxx/xxxx
-   - ALECO. (2023). Annual service reliability report. Albay Electric Cooperative.
-   - Dela Cruz, P. B. (2021). Voltage monitoring systems for rural electrification.
-     Philippine Institute of Electrical Engineers Journal, 8(1), 12-24.
-   - Reyes, L. C., & Torres, A. M. (2020). Household appliance damage from
-     undervoltage events in Bicol Region. Energy Research Philippines, 5(3), 88-102.
-   - Garcia, R. F. (2023). Smart home power monitoring solutions. IEEE Access,
+   - [the Cooperative]. (Year). Annual service reliability report. [the local electric cooperative].
+   - [Author, A. A. (Year)]. Voltage monitoring systems for rural electrification.
+     [a national professional engineering body journal], 8(1), 12-24.
+   - [Author, A. A., & Author, B. B. (Year)]. Household appliance damage from
+     undervoltage events in [the region]. [a national energy research journal], 5(3), 88-102.
+   - [Author, A. A. (Year)]. Smart home power monitoring solutions. [a peer-reviewed engineering journal],
      11, 24531-24545. https://doi.org/10.1109/ACCESS.2023.xxxxx
 
 [CONFIRMED: Generate Introduction]
@@ -84,16 +84,16 @@ Section: Research Design
 3. Section/Part: RRL — Theme: Infrared Thermography in Agriculture
 4. Voice Target: VOICE-A
 5. References:
-   - Mancini, M., & Lopez, F. (2022). Infrared imaging for crop quality assessment.
+   - [Author, A. A., & Author, B. B. (Year)]. Infrared imaging for crop quality assessment.
      Biosystems Engineering, 218, 45-56.
-   - Kim, S., Park, J., & Lee, H. (2021). Thermal imaging for seed germination
+   - [Author, A. A., Author, B. B., & Author, C. C. (Year)]. Thermal imaging for seed germination
      prediction. Journal of Agricultural Engineering, 58(3), 112-124.
-   - Nguyen, T. (2023). Non-destructive methods for rice quality evaluation.
+   - [Author, A. A. (Year)]. Non-destructive methods for rice quality evaluation.
      Computers and Electronics in Agriculture, 205, 107-119.
 
 6. Theme Map:
-   Theme 1: Infrared Thermography — Mancini & Lopez (2022), Nguyen (2023)
-   Theme 2: Seed Viability Assessment Methods — Kim et al. (2021)
+   Theme 1: Infrared Thermography — [Author & Author (Year)], [Author (Year)]
+   Theme 2: Seed Viability Assessment Methods — [Author et al. (Year)]
 
 [THESIS ANCHOR]
 Title: Automated Rice Seed Viability Detection Using Infrared Thermography and CNN
@@ -119,9 +119,9 @@ Thesis Category: Development
 
 [BULLET EXPORT FROM THESIS-WRITER]
 - Phase 1: Requirement Gathering
-  - Interview stakeholders (household owners, ALECO technicians)
+  - Interview stakeholders (household owners, [the cooperative] technicians)
   - Identify voltage thresholds and monitoring frequency requirements
-  - Review existing brownout incident reports from ALECO
+  - Review existing brownout incident reports from [the cooperative]
 - Phase 2: System Development
   - Hardware assembly: ESP32 + PZEM-004T + relay module
   - Firmware: FreeRTOS task scheduling for sensor polling
@@ -129,14 +129,14 @@ Thesis Category: Development
 - Phase 3: Testing and Evaluation
   - Unit testing of individual sensors
   - Integration testing of full system
-  - User acceptance testing with 5 household owners in Polangui
+  - User acceptance testing with 5 household owners in [the municipality]
 
 [THESIS ANCHOR]
-Title: Brownout Guard: A Residential Power Monitoring System for ALECO Service Territory
+Title: Brownout Guard: A Residential Power Monitoring System for [the local utility] service territory
 Category: Development
 General Objective: To develop a residential power monitoring and protection system
-Scope: Limited to monitoring voltage and current at the household level in ALECO
-service territory, Polangui, Albay
+Scope: Limited to monitoring voltage and current at the household level in [the cooperative]
+service territory, [the municipality], [the province]
 Key methodology: RAD methodology, ESP32-based hardware, FreeRTOS firmware,
 React Native mobile app
 ```
@@ -148,24 +148,21 @@ React Native mobile app
 ```
 [SECTION INTAKE]
 
-1. Thesis Title/Topic: Conservative Agriculture Practices Adoption and Impact
-   on the Sustainable Farm Performance for Rice Farmers in Pakistan
+1. Thesis Title/Topic: [a PhD thesis on technology adoption in agriculture]
 2. Thesis Category: Research
 3. Section/Part: Background of the Study
 4. Voice Target: VOICE-C
 5. References:
-   - Kassam, A., Friedrich, T., & Derpsch, R. (2018). Global spread of
+   - [Author, A., Author, B., & Author, C. (Year)]. Global spread of
      conservation agriculture. International Journal of Environmental Studies,
      76(1), 29-51.
-   - Shiferaw, B., Smale, M., Braun, H. J., Duveiller, E., Reynolds, M., &
-     Muricho, G. (2013). Crops that feed the world 10. Past successes and
+   - [Author, A. A., Author, B. B., Author, C. C., Author, D. D., Author, E. E., & Author, F. F. (Year)]. Crops that feed the world 10. Past successes and
      future challenges to the role played by wheat in global food security.
      Food Security, 5(3), 291-317.
-   - FAO. (2018). Climate-smart agriculture sourcebook. Food and Agriculture
-     Organization of the United Nations.
+   - [the Agency]. (2018). Climate-smart agriculture sourcebook. [an international food and agriculture agency].
 6. Theoretical framework: UTAUT (Unified Theory of Acceptance and Use of Technology)
 7. Methodological approach: PLS-SEM + ANN, cross-sectional survey of 384 rice
-   farmers in Punjab, Pakistan
+   farmers in [the region], [the country]
 8. Construct abbreviations: FIN (Facilitating Condition), TOE (Trust on Extension),
    POT (Performance Expectancy), ENA (Effort Expectancy), RTA (Risk-Taking Attitude),
    PEX (Personal innovativeness), EEX (Environmental Concern), SIN (Social Influence)
@@ -180,22 +177,21 @@ React Native mobile app
 ```
 [SECTION INTAKE]
 
-1. Thesis Title/Topic: Conservative Agriculture Practices Adoption and Impact
-   on the Sustainable Farm Performance for Rice Farmers in Pakistan
+1. Thesis Title/Topic: [a PhD thesis on technology adoption in agriculture]
 2. Thesis Category: Research
 3. Section/Part: Discussion — Hypothesis H2a, H2b, H2c (CAPs Characteristics → ITA)
 4. Voice Target: VOICE-C
 5. References:
-   - Tey, Y. S., Li, E., Bruwer, J., & Nayga, R. M. (2014). The adoption of
+   - [Author, A. A., Author, B. B., Author, C. C., & Author, D. D. (Year)]. The adoption of
      sustainable agricultural practices in Malaysia. Journal of Cleaner Production,
      68, 219-227.
-   - Adnan, N., Nordin, S. M., Rahman, I., & Noor, A. (2017). Adoption of green
+   - [Author, A. A., Author, B. B., Author, C. C., & Author, D. D. (Year)]. Adoption of green
      fertilizer technology among paddy farmers. Environmental Science and Pollution
      Research, 24(11), 10521-10535.
-   - Pino, G., Peluso, A. M., & Guido, G. (2017). Determinants of farmers'
+   - [Author, A. A., Author, B. B., & Author, C. C. (Year)]. Determinants of farmers'
      intention to adopt energy saving innovations. Journal of Cleaner Production,
      153, 326-334.
-   - Cohen, J. (1988). Statistical power analysis for the behavioral sciences
+   - [Author, J. (Year)]. Statistical power analysis for the behavioral sciences
      (2nd ed.). Lawrence Erlbaum.
 6. Theoretical framework: UTAUT
 7. Methodological approach: PLS-SEM, f² effect size, ANN
@@ -207,13 +203,12 @@ React Native mobile app
    - H2c: SIN → ITA, f²=0.067, small significant
 
 [THESIS ANCHOR]
-Title: Conservative Agriculture Practices Adoption and Impact on the Sustainable
-Farm Performance for Rice Farmers in Pakistan
+Title: [a PhD thesis on technology adoption in agriculture]
 Category: Research
 General Objective: To explore CAPs adoption as a process based on farmer personal
 factors and CAPs attributes for the formation of the intention to adopt CAPs in
 Pakistani rice farmers
-Scope: Cross-sectional survey of 384 rice farmers in Punjab, Pakistan; six
+Scope: Cross-sectional survey of 384 rice farmers in [the region], [the country]; six
 personal factors and three CAPs attribute constructs
 Key methodology: PLS-SEM with SmartPLS 3.1, ANN validation, SPSS for descriptive
 
@@ -227,40 +222,38 @@ Key methodology: PLS-SEM with SmartPLS 3.1, ANN validation, SPSS for descriptive
 ```
 [SECTION INTAKE]
 
-1. Thesis Title/Topic: Conservative Agriculture Practices Adoption and Impact
-   on the Sustainable Farm Performance for Rice Farmers in Pakistan
+1. Thesis Title/Topic: [a PhD thesis on technology adoption in agriculture]
 2. Thesis Category: Research
 3. Section/Part: RRL — Theme: Performance Expectancy in Innovation Adoption
 4. Voice Target: VOICE-C
 5. References:
-   - Venkatesh, V., Morris, M. G., Davis, G. B., & Davis, F. D. (2003). User
+   - [Author, A. A., Author, B. B., Author, C. C., & Author, D. D. (Year)]. User
      acceptance of information technology: Toward a unified view. MIS Quarterly,
      27(3), 425-478.
-   - Rogers, E. M. (2003). Diffusion of innovations (5th ed.). Free Press.
-   - Adnan, N., Nordin, S. M., Rahman, I., & Noor, A. (2017). Adoption of green
+   - [Author, A. A. (Year)]. Diffusion of innovations (5th ed.). Free Press.
+   - [Author, A. A., Author, B. B., Author, C. C., & Author, D. D. (Year)]. Adoption of green
      fertilizer technology among paddy farmers. Environmental Science and Pollution
      Research, 24(11), 10521-10535.
-   - Tey, Y. S., Li, E., Bruwer, J., & Nayga, R. M. (2014). The adoption of
+   - [Author, A. A., Author, B. B., Author, C. C., & Author, D. D. (Year)]. The adoption of
      sustainable agricultural practices in Malaysia. Journal of Cleaner Production,
      68, 219-227.
 
 6. Theme Map:
-   Theme 1: Performance Expectancy in UTAUT — Venkatesh et al. (2003)
-   Theme 2: Performance Expectancy in Agriculture Adoption — Adnan et al. (2017), Tey et al. (2014)
-   Theme 3: Innovation Adoption Theory Foundation — Rogers (2003)
+   Theme 1: Performance Expectancy in UTAUT — [Author et al. (Year)]
+   Theme 2: Performance Expectancy in Agriculture Adoption — [Author et al. (Year)], [Author et al. (Year)]
+   Theme 3: Innovation Adoption Theory Foundation — [Author (Year)]
 
 7. Theoretical framework: UTAUT
 8. Methodological approach: PLS-SEM
 9. Construct abbreviations: PEX, EEX, SIN, ITA, UOC (Use of CAPs), SFP (Sustainable Farm Performance)
 
 [THESIS ANCHOR]
-Title: Conservative Agriculture Practices Adoption and Impact on the Sustainable
-Farm Performance for Rice Farmers in Pakistan
+Title: [a PhD thesis on technology adoption in agriculture]
 Category: Research
 General Objective: To explore CAPs adoption as a process based on farmer personal
 factors and CAPs attributes for the formation of the intention to adopt CAPs in
 Pakistani rice farmers
-Scope: Cross-sectional survey of 384 rice farmers in Punjab, Pakistan
+Scope: Cross-sectional survey of 384 rice farmers in [the region], [the country]
 Key methodology: PLS-SEM with SmartPLS 3.1
 
 [CONFIRMED: Generate RRL — Theme: Performance Expectancy in Innovation Adoption]
@@ -282,32 +275,32 @@ Soul Level: Maximum (locked)
 GENERATING: INTRODUCTION
 
 REFERENCES (5):
-1. Santos, J. R., & Cruz, M. A. (2022). Power quality in Philippine distribution
-   networks. Journal of Electrical Engineering Philippines, 14(2), 45-58.
+1. [Author, A. A., & Author, B. B. (Year)]. Power quality in Philippine distribution
+   networks. [a national electrical engineering journal], 14(2), 45-58.
    https://doi.org/10.xxxx/xxxx
    APA: OK
    Verification: [NEEDS SEARCH — will verify before generation]
    Claim Match: Pending verification
 
-2. ALECO. (2023). Annual service reliability report. Albay Electric Cooperative.
+2. [the Cooperative]. (Year). Annual service reliability report. [the local electric cooperative].
    APA: [CITATION FORMAT CORRECTED — no URL/DOI added; organizational author
    format OK]
    Verification: [UNVERIFIABLE — internal report, no public abstract]
    Claim Match: OK — used as institutional data source only
 
-3. Dela Cruz, P. B. (2021). Voltage monitoring systems for rural electrification.
-   Philippine Institute of Electrical Engineers Journal, 8(1), 12-24.
+3. [Author, A. A. (Year)]. Voltage monitoring systems for rural electrification.
+   [a national professional engineering body journal], 8(1), 12-24.
    APA: OK
    Verification: [NEEDS SEARCH]
    Claim Match: Pending
 
-4. Reyes, L. C., & Torres, A. M. (2020). Household appliance damage from
-   undervoltage events in Bicol Region. Energy Research Philippines, 5(3), 88-102.
+4. [Author, A. A., & Author, B. B. (Year)]. Household appliance damage from
+   undervoltage events in [the region]. [a national energy research journal], 5(3), 88-102.
    APA: OK
    Verification: [NEEDS SEARCH]
    Claim Match: Pending
 
-5. Garcia, R. F. (2023). Smart home power monitoring solutions. IEEE Access,
+5. [Author, A. A. (Year)]. Smart home power monitoring solutions. [a peer-reviewed engineering journal],
    11, 24531-24545. https://doi.org/10.1109/ACCESS.2023.xxxxx
    APA: OK
    Verification: [VERIFIED VIA SEARCH]
@@ -316,15 +309,15 @@ REFERENCES (5):
 GLOSSARY (4 terms locked):
 | Term | Definition |
 |---|---|
-| Brownout | A prolonged reduction in voltage supply below the acceptable threshold, as experienced in ALECO service territory, causing appliance damage and service interruption |
-| Undervoltage | Voltage level that drops below 0.90 per unit of nominal supply voltage, as defined by ERC standards |
-| ALECO | Albay Electric Cooperative, the distribution utility serving Polangui and surrounding municipalities |
+| Brownout | A prolonged reduction in voltage supply below the acceptable threshold, as experienced in [the cooperative] service territory, causing appliance damage and service interruption |
+| Undervoltage | Voltage level that drops below 0.90 per unit of nominal supply voltage, as defined by [the regulator] standards |
+| [the cooperative] | [the local electric cooperative], the distribution utility serving [the municipality] and surrounding municipalities |
 | PZEM-004T | A power monitoring module used in this study to measure voltage, current, and power factor in real time |
 
 FLAGGED FOR REVIEW:
 - References 1, 3, 4 pending web search verification. Proceeding with
   [UNVERIFIABLE] flag if abstracts are not found.
-- ALECO internal report: cite as gray literature. Will flag if claim match
+- [the cooperative] internal report: cite as gray literature. Will flag if claim match
   cannot be verified.
 
 Reply: [CONFIRMED: Generate Introduction]
@@ -340,21 +333,21 @@ Or send corrections.
 
 Electricity is something that most households in the Philippines consider a
 basic part of daily life, which means its absence or sudden instability is
-not just an inconvenience but a real economic problem (Santos & Cruz, 2022).
-In Albay, this problem is well-known. Families who live inside the ALECO
+not just an inconvenience but a real economic problem ([Author & Author, Year]).
+In [the province], this problem is well-known. Families who live inside the [the cooperative]
 service territory have become so used to voltage fluctuations that they have
 a word for it already: brownout. Because of that, the term does not just
 mean a power interruption, it also means the steady hum of appliances
 suddenly going quiet, the refrigerator warming up, and the water pump
-failing to start in the morning (Reyes & Torres, 2020).
+failing to start in the morning ([Author & Author, Year]).
 
 The researchers observe that the cause of these events is not one single
 failure but a combination of aging infrastructure, rising household demand,
-and the seasonal battering of Bicol's typhoon corridor (ALECO, 2023). At the
-moment, the distribution network serving Polangui was not originally
+and the seasonal battering of [the region]'s typhoon corridor ([the Cooperative, Year]). At the
+moment, the distribution network serving [the municipality] was not originally
 designed to carry the load that modern households put on it, which means
 that even without a storm, voltage levels can drop below the threshold that
-appliances need in order to function safely (Dela Cruz, 2021). This is
+appliances need in order to function safely ([Author, Year]). This is
 because the cooperative has not been able to expand its infrastructure at
 the same pace that residential connections have grown, and that gap is not
 abstract — a family with a chest freezer full of a week's worth of fish
@@ -380,7 +373,7 @@ The example above shows:
 
 1. VOICE-A voice: "Because of that," "which means," "in order to," "The
    researchers observe that."
-2. Embodied specificity: the refrigerator, water pump, chest freezer, and ALECO
+2. Embodied specificity: the refrigerator, water pump, chest freezer, and [the cooperative]
    as place name.
 3. Problem genealogy in progress: everyday problem (para 1), infrastructure
    cause (para 2).
@@ -404,15 +397,15 @@ impact of the a) CAPs PEX, b) EEX, and c) CAPs SIN on the intention to adopt
 CAPs.
 
 The study result shows that the CAPs PEX (f²=0.000) insignificantly influence
-the intention to adopt CAPs (Cohen, 1988), and offer no support to accept the
+the intention to adopt CAPs ([Author, Year]), and offer no support to accept the
 H2a. The insignificant impact of CAPs PEX on the intention to adopt CAPs also
-documented by Tey et al. (2014), and Adnan et al. (2017). The result of the
+documented by [Author et al. (Year)], and [Author et al. (Year)]. The result of the
 study highlights the lack of awareness among the farmers and reportedly low
 perception of CAPs performance from the proposed use of CAPs.
 
 However, it is essential to note that PEX for the CAPs needs improvement;
 extension staff and farmer-to-farmer observation opportunities may aid to
-improves the CAPs PEX and adoption of CAPs as well (Ali et al., 2018).
+improves the CAPs PEX and adoption of CAPs as well ([Author et al., Year]).
 Moreover, the same is the case for the developing countries where the
 farmer needs to educate on the use of the CAPs in order to enables the
 better perception of the performance of CAPs.
@@ -434,11 +427,11 @@ The example above shows the VOICE-C forensic markers in operation:
 2. **Of-chains**: "the impact of CAPs characteristics on the intention to
    adopt the CAPs", "the lack of awareness among the farmers", "the
    perception of CAPs performance from the proposed use of CAPs".
-3. **Zero-auxiliary passives**: "also documented by Tey et al. (2014)" (no
+3. **Zero-auxiliary passives**: "also documented by [Author et al. (Year)]" (no
    "was" before "documented").
 4. **Infinitive with -s**: "may aid to improves the CAPs PEX" and "in order
    to enables the better perception".
-5. **ESL attribution**: "Tey et al. (2014), and Adnan et al. (2017)" — the
+5. **ESL attribution**: "[Author et al. (Year)], and [Author et al. (Year)]" — the
    comma before "and" is itself a stylistic ESL marker.
 6. **Connector rotation**: "However," → "Moreover," → no third connector
    (would be forced). Rotation rule respected.
@@ -463,7 +456,7 @@ The example above shows the VOICE-C forensic markers in operation:
 
 > "The development of automated sorting systems has also been explored in related agricultural research."
 
-> "Existing solutions for voltage monitoring have been developed in other countries but they often require expensive equipment that most households in Polangui cannot afford."
+> "Existing solutions for voltage monitoring have been developed in other countries but they often require expensive equipment that most households in [the municipality] cannot afford."
 
 > "However, the farmers' perception of CAPs performance is shaped by more than just the technical attributes of the practices themselves."
 
@@ -487,7 +480,7 @@ Please write your own bridge sentence before I continue. A single word or
 Example of an acceptable bridge sentence:
 "Existing solutions for voltage monitoring have been developed in other
 countries but they often require expensive equipment that most households
-in Polangui cannot afford."
+in [the municipality] cannot afford."
 
 Your bridge sentence:
 ```
@@ -533,8 +526,8 @@ Example: Student asks for a "Background of the Study" section inside Chapter 3
 
 ### `[CITATION ERROR: Use APA 7th]`
 Triggered when: in-text citation does not follow APA 7th rules. Example:
-"(Smith, 2020, p. 15, para. 3, sec. 2)" — too much detail for an in-text
-citation. Should be "(Smith, 2020)" or "(Smith, 2020, p. 15)" for direct
+"([Author, Year, p. XX, para. X, sec. X])" — too much detail for an in-text
+citation. Should be "([Author, Year])" or "([Author, Year, p. XX])" for direct
 quote only.
 
 ### `[STRUCTURE GAP: Theme Map missing]`

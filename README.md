@@ -8,7 +8,7 @@ across **four voice profiles**, institutional format compliance, and APA 7th
 edition citations.
 
 - **BASE / VOICE-A / VOICE-B** — Filipino undergraduate CpE/CS thesis voice
-- **VOICE-C** — Pakistani ESL PhD / graduate research voice (Dr Naeem Hayat
+- **VOICE-C** — Pakistani ESL PhD / graduate research voice (the author
   forensic reconstruction, confirmed 0% Turnitin AI-detection)
 
 ---
@@ -21,13 +21,13 @@ edition citations.
 - Humanizes existing AI-written text so it reads as authentic ESL academic
   writing
 - Converts /thesis-writer BULLET EXPORT into full prose
-- Enforces institutional thesis format compliance (BU / Pakistani university
+- Enforces institutional thesis format compliance ([the University] / [a Commonwealth] university
   graduate school format compatible)
 - Enforces APA 7th edition citations
 - Verifies citations via web search before generation
 - Four voice profiles across two voice families:
   - Filipino undergraduate: BASE, VOICE-A, VOICE-B
-  - Pakistani ESL PhD: VOICE-C (Dr Naeem Hayat forensic style)
+  - Pakistani ESL PhD: VOICE-C (the author forensic style)
 - Chunks output and gates on student-written bridge sentences to prevent
   AI-looking continuity
 - Injects probabilistic human mistakes (Tier 5) to avoid detection,
@@ -55,7 +55,7 @@ White-Lotus-Humanizer-v6.5.0/
 │   ├── voice_a.md                  Profile B: VOICE-A (polished Filipino CpE)
 │   ├── voice_b.md                  Profile C: VOICE-B (developing Filipino CpE)
 │   ├── voice_c.md                  Profile D: VOICE-C (Pakistani ESL PhD) [NEW v6.5.0]
-│   ├── naeem_style_essence.md      Forensic quick-reference for VOICE-C [NEW v6.5.0]
+│   ├── voice_c_style_essence.md      Forensic quick-reference for VOICE-C [NEW v6.5.0]
 │   ├── humanization_techniques.md  All rhetorical + structural techniques
 │   ├── tier5_mistake_layer.md      Probabilistic human mistake injection rules
 │   ├── bu_format_specs.md          Institutional format compliance specs
@@ -144,7 +144,7 @@ python scripts/intake_prefill.py \
 | BASE | Filipino undergrad | Generic authentic Filipino student voice | Any section, calibrated to student's own sample |
 | VOICE-A | Filipino undergrad | Polished Filipino CpE undergraduate voice | Chapter 2 mandatory; Chapter 1, 3, 4, 5 |
 | VOICE-B | Filipino undergrad | Developing Filipino CpE undergraduate voice | Chapter 1, 3, 4, 5 |
-| VOICE-C | Pakistani ESL PhD | Dr Naeem Hayat forensic voice (0% Turnitin) | Graduate / PhD research; UTAUT, PLS-SEM, agricultural economics, social science |
+| VOICE-C | Pakistani ESL PhD | the author forensic voice (0% Turnitin) | Graduate / PhD research; UTAUT, PLS-SEM, agricultural economics, social science |
 
 **Within the Filipino undergraduate family**: do not use the same profile for
  two consecutive chunks. Chapter 2 (RRL, RRS, Synthesis) uses VOICE-A only.
@@ -203,7 +203,7 @@ produces output that still reads as machine-generated.
 
 ## Compliance
 
-- **Format**: Institutional Thesis Format (BU / Pakistani university graduate
+- **Format**: Institutional Thesis Format ([the University] / Pakistani university graduate
   school format compatible)
 - **Citation**: APA 7th Edition
 - **Bibliography**: Alphabetical, hanging indent, end-matter
@@ -256,7 +256,7 @@ frontmatter fields.
 - Section templates are split by chapter in `references/`.
   Update individual chapter files without affecting other chapters.
 - VOICE-C forensic detail lives in `references/voice_c.md` and
-  `references/naeem_style_essence.md`. Update both files together — they are
+  `references/voice_c_style_essence.md`. Update both files together — they are
   co-loaded and reference each other.
 
 ---

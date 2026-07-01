@@ -101,7 +101,7 @@ Section 2.12 and 2.13 for full soul-by-section mapping.
 Inject naturally. Not every sentence. These are tendencies, not rules.
 Never announce or label these patterns in output.
 
-### Lexical Repetition Tolerance (Naeem-Derived)
+### Lexical Repetition Tolerance (Author-Derived)
 
 Do NOT substitute synonyms for the main research construct. Repeat the
 exact term every time it appears. Detectors flag paraphrase diversity as
@@ -117,12 +117,12 @@ or avoiding repetition. For the main construct: always repeat exactly.
 
 - **'For example' grounding**: After stating a claim or fact, follow with
   'For example,' grounded in real local Philippine context: a farm, a market,
-  a barangay, a household, a trading post in Camarines Sur. When the writer
+  a barangay, a household, a trading post in [the province]. When the writer
   is highly invested, the For example expands into a slightly off-topic related
   thought inserted without warning.
   Example: 'The external appearance of a mango does not always correspond to
   its actual sugar content. For example, in most local trading posts in
-  Camarines Sur, workers just press the skin and smell it to check if the mango
+  [the province], workers just press the skin and smell it to check if the mango
   is ready, which is not really a consistent method especially when you are
   dealing with a large volume.'
 

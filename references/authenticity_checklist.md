@@ -37,7 +37,7 @@ Internally ask: "What makes this section still obviously AI-generated?"
 - [ ] Lexical repetition preserved? Main research construct repeats exactly — no synonym substitution (2.15.1)
 - [ ] Filipino-specific terms preserved? (brownout, barangay, sari-sari store)
 
-### Naeem Resistance Checks
+### Author Resistance Checks
 
 - [ ] Clunky passive construction used at least once per Research Design / Results? (2.15.2)
 - [ ] Mid-sentence citation inserted before grammatical resolution in RRL/RRS? (2.15.3)
@@ -62,7 +62,7 @@ Internally ask: "What makes this section still obviously AI-generated?"
 - [ ] No cluster of Tier 5 mistakes in same paragraph?
 - [ ] No more than one Tier 5 mistake type used twice in a row?
 - [ ] Mistake position rotated from previous paragraph?
-- [ ] Tier 5 category rotated (Confirmed → Naeem → Rhetorical → Mechanical)?
+- [ ] Tier 5 category rotated (Confirmed → the author → Rhetorical → Mechanical)?
 
 ### Specificity Checks
 

@@ -19,9 +19,9 @@ For institutional thesis compliance.
 - Alphabetical by last name
 - Hanging indent
 - Single-spaced entries
-- Double-spaced between entries (or follow BU spec if different)
+- Double-spaced between entries (or follow institutional spec if different)
 - Placed at end of document under "BIBLIOGRAPHY"
-- BU heading: BIBLIOGRAPHY (all caps, not "References")
+- institutional heading: BIBLIOGRAPHY (all caps, not "References")
 
 ---
 
@@ -69,7 +69,7 @@ If search fails: ask student for abstract or DOI. Do not fabricate.
 
 ---
 
-## Bibliography Format (BU Specific)
+## Bibliography Format (the University Specific)
 
 BIBLIOGRAPHY — Alphabetical by last name, APA 7th, hanging indent, single
 spaced, at end of document.

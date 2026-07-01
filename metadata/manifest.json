@@ -2,8 +2,8 @@
   "name": "White-Lotus-Humanizer",
   "version": "6.5.0",
   "architecture": "progressive-disclosure",
-  "description": "Undergraduate and graduate thesis humanizer. Generates and rewrites thesis sections with authentic ESL academic voice across four profiles (BASE, VOICE-A, VOICE-B, VOICE-C), institutional format compliance, and APA 7th citations. VOICE-C is the forensic Pakistani ESL PhD voice reconstructed from Dr Naeem Hayat's 0% Turnitin thesis.",
-  "compliance": "Institutional Thesis Format (BU / Pakistani university graduate school format compatible)",
+  "description": "Undergraduate and graduate thesis humanizer. Generates and rewrites thesis sections with authentic ESL academic voice across four profiles (BASE, VOICE-A, VOICE-B, VOICE-C), institutional format compliance, and APA 7th citations. VOICE-C is the forensic Pakistani ESL PhD voice reconstructed from the author's 0% Turnitin thesis.",
+  "compliance": "Institutional Thesis Format ([the University] / [a Commonwealth university graduate school] format compatible)",
   "citation_style": "APA 7th Edition",
   "absorbed_skills": [
     "voice-profile-a",
@@ -39,10 +39,10 @@
     },
     {
       "id": "VOICE-C",
-      "label": "Voice Profile C — Pakistani ESL PhD Voice (Dr Naeem Hayat forensic style)",
+      "label": "Voice Profile C — Pakistani ESL PhD Voice (the author forensic style)",
       "family": "pakistani-esl-phd",
       "reference": "references/voice_c.md",
-      "co_loaded_with": "references/naeem_style_essence.md",
+      "co_loaded_with": "references/voice_c_style_essence.md",
       "theoretical_frameworks": ["UTAUT", "TAM", "DOI", "TPB", "TRA"],
       "methodological_approaches": ["PLS-SEM", "ANN", "CB-SEM", "cross-sectional survey"]
     }
@@ -62,7 +62,7 @@
       "references/voice_a.md",
       "references/voice_b.md",
       "references/voice_c.md",
-      "references/naeem_style_essence.md",
+      "references/voice_c_style_essence.md",
       "references/humanization_techniques.md",
       "references/tier5_mistake_layer.md",
       "references/bu_format_specs.md",
@@ -77,7 +77,7 @@
     "co_loaded_pairs": [
       {
         "primary": "references/voice_c.md",
-        "secondary": "references/naeem_style_essence.md",
+        "secondary": "references/voice_c_style_essence.md",
         "reason": "VOICE-C essence file is the operational quick-reference; voice_c.md is the full forensic profile. Neither is complete alone."
       }
     ]
@@ -106,7 +106,7 @@
     "humanize",
     "filipino-student-voice",
     "pakistani-esl-phd",
-    "naeem-forensic-voice",
+    "author-forensic-voice",
     "graduate-research",
     "institutional-compliance",
     "APA7",

@@ -88,7 +88,7 @@ This reference is loaded at generation time, not at startup.
 
 ### Updating compliance rules
 
-1. Edit `references/bu_format_specs.md` for BU format changes
+1. Edit `references/bu_format_specs.md` for institutional format changes
 2. Edit `references/apa_citation_rules.md` for APA edition changes
 3. Update the compliance field in `metadata/manifest.json`
 4. Update the META section in SKILL.md

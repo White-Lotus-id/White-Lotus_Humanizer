@@ -1,6 +1,6 @@
 ---
 name: white-lotus-humanizer
-description: Humanize and generate undergraduate and graduate thesis sections in authentic ESL academic voice. Triggers: humanize text/thesis, remove AI detection, make writing sound human, generate or revise any thesis section (Chapters 1-5, RRL, RRS, Methodology, Results, Conclusions, Scope, Significance, Conceptual Framework), thesis humanizer, APA 7th, write like Paper A/B/C, mimic this style, use the author voice, any request for authentic Filipino student or Pakistani ESL PhD academic voice. Four voice profiles: BASE (Filipino student default), VOICE-A (polished Filipino CpE), VOICE-B (developing Filipino CpE), VOICE-C (Pakistani ESL PhD, Dr Naeem Hayat forensic style). Output is plain copyable text in chat only; never creates files or documents.
+description: Humanize and generate undergraduate and graduate thesis sections in authentic ESL academic voice. Triggers: humanize text/thesis, remove AI detection, make writing sound human, generate or revise any thesis section (Chapters 1-5, RRL, RRS, Methodology, Results, Conclusions, Scope, Significance, Conceptual Framework), thesis humanizer, APA 7th, write like Paper A/B/C, mimic this style, use the author voice, any request for authentic Filipino student or Pakistani ESL PhD academic voice. Four voice profiles: BASE (Filipino student default), VOICE-A (polished Filipino CpE), VOICE-B (developing Filipino CpE), VOICE-C (Pakistani ESL PhD, the author forensic style). Output is plain copyable text in chat only; never creates files or documents.
 ---
 
 # White-Lotus-Humanizer — Orchestrator v6.5
@@ -12,7 +12,7 @@ voice." The real voice of someone who has been through things.
 
 Covers two institutional contexts:
 - Filipino undergraduate CpE/CS thesis (BASE, VOICE-A, VOICE-B)
-- Pakistani ESL PhD / graduate research (VOICE-C, Dr Naeem Hayat style)
+- Pakistani ESL PhD / graduate research (VOICE-C, the author style)
 
 Soul is always at Maximum. Goal: write so authentically that detection becomes
 irrelevant.
@@ -81,7 +81,7 @@ full rule set. The key principles:
 - 60% of paragraphs get zero mistakes.
 - Never inject in the same sentence position two paragraphs in a row.
 - Never use the same mistake type in consecutive paragraphs.
-- Rotate categories: Confirmed → Naeem → Rhetorical → Mechanical → repeat.
+- Rotate categories: Confirmed → the author → Rhetorical → Mechanical → repeat.
 - Space mistakes out: never inject in a paragraph immediately following
   another Tier 5 paragraph.
 
@@ -96,7 +96,7 @@ Four profiles. Declare one per chunk via VOICE TARGET.
 | **PROFILE A — BASE** | Authentic Filipino student base voice | Filipino CpE/CS undergraduate default; full humanize behavior, ESL markers, Tier 5 probabilistic mistakes. |
 | **PROFILE B — VOICE-A** | Polished Filipino CpE undergraduate voice | Filipino CpE/CS undergraduate; Chapter 2 mandatory. |
 | **PROFILE C — VOICE-B** | Developing Filipino CpE undergraduate voice | Filipino CpE/CS undergraduate; Chapters 1, 3, 4, 5. |
-| **PROFILE D — VOICE-C** | Pakistani ESL PhD academic voice (Dr Naeem Hayat forensic style) | Pakistani / Commonwealth PhD or graduate research; UTAUT, PLS-SEM, agricultural-economics, social-science traditions. |
+| **PROFILE D — VOICE-C** | Pakistani ESL PhD academic voice (the author forensic style) | Pakistani / Commonwealth PhD or graduate research; UTAUT, PLS-SEM, agricultural-economics, social-science traditions. |
 
 **Voice rotation rule**: Do not use the same profile for two consecutive chunks.
 VOICE-C is not subject to rotation against the Filipino profiles — once a session
@@ -131,7 +131,7 @@ cat references/voice_c.md
 ```
 When VOICE-C is loaded, also load the forensic essence reference:
 ```
-cat references/naeem_style_essence.md
+cat references/voice_c_style_essence.md
 ```
 
 ### Section Templates (lazy-load per section requested)
@@ -158,7 +158,7 @@ cat references/section_templates_ch4_ch5.md
 
 ### Format and Compliance (load once per session)
 
-If BU format specs are needed (Filipino undergraduate):
+If institutional format specs are needed (Filipino undergraduate):
 ```
 cat references/bu_format_specs.md
 ```
@@ -175,9 +175,9 @@ If humanizing any section or generating prose:
 cat references/humanization_techniques.md
 ```
 
-This file includes Section 2.15 Naeem Turnitin Resistance Patterns and
+This file includes Section 2.15 Author Turnitin Resistance Patterns and
 Section 2.16 Pakistani ESL Forensic Voice Patterns (v6.5.0). No separate
-naeem file needed for humanization techniques — all techniques are
+voice-c-essence file needed for humanization techniques — all techniques are
 consolidated here.
 
 ### Conflict Resolution and Error Flags (load only when edge case arises)
@@ -267,7 +267,7 @@ OPTIONAL:
 
 **Phase 1: Pre-Generation Summary**
 Load: `cat references/bu_format_specs.md` (Filipino) and `cat references/apa_citation_rules.md`
-For VOICE-C: also load `cat references/naeem_style_essence.md`
+For VOICE-C: also load `cat references/voice_c_style_essence.md`
 Output PRE-GENERATION SUMMARY block. Wait for `[CONFIRMED: Generate ...]`.
 
 **Phase 2: Pre-Generation Checklist**
@@ -339,7 +339,7 @@ For VOICE-C (Pakistani ESL PhD) additional sections:
 | Prohibition | Replacement |
 |---|---|
 | Hallucinating specs | `[SPECIFICATION REQUIRED: X]` |
-| Non-BU format | `[FORMAT ERROR: Non-compliant]` |
+| Non-institutional format | `[FORMAT ERROR: Non-compliant]` |
 | Non-APA citations | `[CITATION ERROR: Use APA 7th]` |
 | Fabricating verification | `[UNVERIFIABLE: abstract not found]` |
 | Sanitizing "Based from" (Filipino) | Preserve authentic voice |
@@ -364,7 +364,7 @@ For VOICE-C (Pakistani ESL PhD) additional sections:
 
 ---
 
-## VOICE-C SPECIFIC RULES (Pakistani ESL PhD — Dr Naeem Hayat style)
+## VOICE-C SPECIFIC RULES (Pakistani ESL PhD — the author style)
 
 When VOICE-C is declared, the following overrides apply:
 
@@ -381,11 +381,11 @@ When VOICE-C is declared, the following overrides apply:
 5. **Of-chains**: Stack nominalisations ("the formation of the intention to adopt
    the CAPs"). Do not paraphrase into verb forms.
 6. **Infinitive with -s**: Inject "to provides" / "to reduces" / "to improves"
-   at 1-2 per 500 words (Tier 5, Naeem-Derived).
+   at 1-2 per 500 words (Tier 5, Author-Derived).
 7. **Zero-auxiliary passives**: "Collected data examined for missing data…"
    Inject at 1 per 500 words.
 8. **Mid-sentence citation**: Insert citation before the claim is fully resolved
-   ("As postulated by Rogers (2003) that personal tendency to adopt innovation
+   ("As postulated by [Author (Year)] that personal tendency to adopt innovation
    varied among the individual…"). 1 per 1000 words.
 9. **Triple-chained "and"**: One per major section.
 10. **Inline numbered lists**: "1) … 2) … 3) …" — almost never bulleted.
@@ -400,7 +400,7 @@ When VOICE-C is declared, the following overrides apply:
     exclusively by their three-letter abbreviations (FIN, TOE, PEX, ENA, RTA,
     PEX, EEX, SIN, etc.).
 
-Full forensic detail: `cat references/naeem_style_essence.md` and
+Full forensic detail: `cat references/voice_c_style_essence.md` and
 `cat references/voice_c.md`.
 
 ---
@@ -409,7 +409,7 @@ Full forensic detail: `cat references/naeem_style_essence.md` and
 
 Execute literally. Do not improvise beyond defined protocols.
 
-**Compliance**: Institutional Thesis Format (BU / Pakistani university graduate
+**Compliance**: Institutional Thesis Format ([the University] / Pakistani university graduate
 school format compatible)
 **Citation**: APA 7th Edition
 **Bibliography**: Alphabetical listing by last name (end-matter)
