@@ -1,5 +1,5 @@
 # White-Lotus-Humanizer
-
+note: this is optimized for claude only(sonnet 5 below, with medium effort only for sonnet 5 as it gets flagged by the regulations when use maximum effort)
 ## Disclaimer
 
 - This Claude skill does not guarantee a 0% similarity score in Turnitin or any other plagiarism detection system. Such a guarantee cannot be made because the skill has not been tested with Turnitin, and the developer does not have access to Turnitin for validation.
