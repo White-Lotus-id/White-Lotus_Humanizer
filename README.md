@@ -1,5 +1,22 @@
 # White-Lotus-Humanizer
 
+## Disclaimer
+
+- This Claude skill does not guarantee a 0% similarity score in Turnitin or any other plagiarism detection system. Such a guarantee cannot be made because the skill has not been tested with Turnitin, and the developer does not have access to Turnitin for validation.
+- The primary purpose of this Claude skill is to reduce AI-generated writing patterns, making the generated drafts easier to revise and paraphrase. Results will vary depending on the prompt, the provided source material, the generated content, and the detection tool being used.
+- Based on the developer's personal experience, when evaluated using Grammarly's AI detector, the skill has occasionally produced outputs under 300 words (such as simple essays, thesis abstracts, or introduction sections) that were reported as 0% AI-written. This is only an anecdotal observation, not a guarantee or expected outcome. Different AI detectors, longer documents, or more complex writing tasks may produce different results.
+- Recommended workflow: Upload this Claude skill together with your master thesis file (your single source of truth). Use it to generate drafts only, then carefully review, edit, and paraphrase the output before using it in any academic or professional work.
+- If an AI detector still flags the generated content, manually revise and rewrite the affected sections. Never submit generated content without substantial human review and editing.
+- This Claude skill intentionally prioritizes natural, human-like writing over perfectly polished grammar. As a result, some outputs may include minor grammatical imperfections, slightly awkward phrasing, or inconsistent sentence structures to better resemble authentic human writing.
+- If you expect flawless grammar, publication-ready writing, or guaranteed AI detector performance, this Claude skill is not intended for that purpose. It is a drafting assistant, not a replacement for careful human writing and editing.
+- You are solely responsible for ensuring the final document meets your institution's requirements for originality, citations, formatting, academic integrity, and factual accuracy.
+
+## Collaboration
+
+I welcome collaboration from the community to improve this Claude skill. Contributors are welcome to help with prompt engineering, workflow optimization, evaluation methods, writing quality, natural language generation, documentation, and testing.
+
+My long-term vision is to continue researching and improving this project. If the writing pipeline becomes sufficiently mature and well-validated, I plan to build a writing assistance system focused on producing more original, natural, and well-edited academic drafts that better satisfy plagiarism and AI-writing evaluation standards while maintaining academic integrity.
+
 **Undergraduate & Graduate Thesis Humanizer**
 Version 6.5.0 — Progressive Disclosure Architecture
 
