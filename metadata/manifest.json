@@ -1,0 +1,130 @@
+{
+  "name": "White-Lotus-Humanizer",
+  "version": "6.5.0",
+  "architecture": "progressive-disclosure",
+  "description": "Undergraduate and graduate thesis humanizer. Generates and rewrites thesis sections with authentic ESL academic voice across four profiles (BASE, VOICE-A, VOICE-B, VOICE-C), institutional format compliance, and APA 7th citations. VOICE-C is the forensic Pakistani ESL PhD voice reconstructed from Dr Naeem Hayat's 0% Turnitin thesis.",
+  "compliance": "Institutional Thesis Format (BU / Pakistani university graduate school format compatible)",
+  "citation_style": "APA 7th Edition",
+  "absorbed_skills": [
+    "voice-profile-a",
+    "voice-profile-b",
+    "voice-profile-c"
+  ],
+  "output_mode": "plain_text_chat_only",
+  "creates_files": false,
+  "frontmatter": {
+    "fields_included": ["name", "description"],
+    "description_length_chars": 749,
+    "description_limit_chars": 1024,
+    "notes": "Frontmatter intentionally limited to name + description only for Claude skill validator compatibility. All other metadata lives in this manifest.json and in the SKILL.md markdown body."
+  },
+  "voice_profiles": [
+    {
+      "id": "BASE",
+      "label": "Base Humanize (Filipino student default)",
+      "family": "filipino-undergraduate",
+      "reference": "references/voice_base.md"
+    },
+    {
+      "id": "VOICE-A",
+      "label": "Voice Profile A — Polished Filipino CpE Voice",
+      "family": "filipino-undergraduate",
+      "reference": "references/voice_a.md"
+    },
+    {
+      "id": "VOICE-B",
+      "label": "Voice Profile B — Developing Filipino CpE Voice",
+      "family": "filipino-undergraduate",
+      "reference": "references/voice_b.md"
+    },
+    {
+      "id": "VOICE-C",
+      "label": "Voice Profile C — Pakistani ESL PhD Voice (Dr Naeem Hayat forensic style)",
+      "family": "pakistani-esl-phd",
+      "reference": "references/voice_c.md",
+      "co_loaded_with": "references/naeem_style_essence.md",
+      "theoretical_frameworks": ["UTAUT", "TAM", "DOI", "TPB", "TRA"],
+      "methodological_approaches": ["PLS-SEM", "ANN", "CB-SEM", "cross-sectional survey"]
+    }
+  ],
+  "voice_family_lock": {
+    "rule": "Once a voice family is declared for a chapter, it cannot be switched mid-chapter.",
+    "families": {
+      "filipino-undergraduate": ["BASE", "VOICE-A", "VOICE-B"],
+      "pakistani-esl-phd": ["VOICE-C"]
+    },
+    "rotation_within_family": "Filipino undergraduate family rotates profiles between chunks (no same profile two chunks in a row). VOICE-C does not rotate — once locked, all chunks use VOICE-C."
+  },
+  "references": {
+    "always_loaded": [],
+    "lazy_loaded": [
+      "references/voice_base.md",
+      "references/voice_a.md",
+      "references/voice_b.md",
+      "references/voice_c.md",
+      "references/naeem_style_essence.md",
+      "references/humanization_techniques.md",
+      "references/tier5_mistake_layer.md",
+      "references/bu_format_specs.md",
+      "references/apa_citation_rules.md",
+      "references/section_templates_ch1.md",
+      "references/section_templates_ch2.md",
+      "references/section_templates_ch3.md",
+      "references/section_templates_ch4_ch5.md",
+      "references/conflict_resolution.md",
+      "references/authenticity_checklist.md"
+    ],
+    "co_loaded_pairs": [
+      {
+        "primary": "references/voice_c.md",
+        "secondary": "references/naeem_style_essence.md",
+        "reason": "VOICE-C essence file is the operational quick-reference; voice_c.md is the full forensic profile. Neither is complete alone."
+      }
+    ]
+  },
+  "scripts": {
+    "verify_citations": "scripts/verify_citations.py",
+    "tier5_audit": "scripts/tier5_audit.py",
+    "intake_prefill": "scripts/intake_prefill.py"
+  },
+  "examples": {
+    "consolidated_templates": "examples/example.md",
+    "real_prompts": "examples/example-prompts.md",
+    "annotated_outputs": "examples/example-outputs.md"
+  },
+  "chapter_coverage": [
+    "Chapter 1: THE PROBLEM",
+    "Chapter 2: REVIEW OF RELATED LITERATURE AND STUDIES",
+    "Chapter 3: RESEARCH DESIGN",
+    "Chapter 4: DATA ANALYSIS AND INTERPRETATION",
+    "Chapter 5: SUMMARY OF FINDINGS, CONCLUSIONS AND RECOMMENDATIONS",
+    "Graduate-level: Abstract, Background, Discussion (per-hypothesis), Contribution, Managerial Implications, Chapter Summary (sandwich pattern)"
+  ],
+  "tags": [
+    "thesis",
+    "academic-writing",
+    "humanize",
+    "filipino-student-voice",
+    "pakistani-esl-phd",
+    "naeem-forensic-voice",
+    "graduate-research",
+    "institutional-compliance",
+    "APA7",
+    "anti-AI-detection",
+    "progressive-disclosure",
+    "pl-sem",
+    "utaut",
+    "commonwealth-spelling"
+  ],
+  "error_flags": [
+    "[FORMAT ERROR: X]",
+    "[CITATION ERROR: X]",
+    "[STRUCTURE GAP: X]",
+    "[LOGIC GAP: X]",
+    "[UNVERIFIABLE: abstract not found]",
+    "[ASSUMPTION: X]",
+    "[SPECIFICATION REQUIRED: X]",
+    "[VOICE LOCK VIOLATION]",
+    "[FRAMEWORK REQUIRED: X]"
+  ]
+}

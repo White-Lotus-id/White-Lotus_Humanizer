@@ -1,0 +1,5 @@
+# humanize skill — Python dependencies
+#
+# No third-party packages required.
+# All scripts use Python standard library only (re, argparse, sys, textwrap, collections).
+# Python 3.9 or higher is required.
